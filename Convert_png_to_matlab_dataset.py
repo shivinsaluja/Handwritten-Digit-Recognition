@@ -50,13 +50,10 @@ for i in range(20):
 for i in range(20):
     for j in range(20):
         print(newArr[i][j])
-        # print(' , ')
     print('\n')
 
 plt.imshow(newArr, interpolation='nearest')
-plt.savefig('MNIST_IMAGE.png')
 newArr = np.asarray(newArr)
-#newArr = np.concatenate(newArr)
 newArr = newArr.flatten('F')
 scipy.io.savemat('own_created_dataset.mat',dict(X=newArr),y=3)
 plt.show()
