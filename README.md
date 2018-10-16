@@ -1,5 +1,5 @@
  
- ##Handwritten-Digit-Recognition
+ ## Handwritten-Digit-Recognition
  
  This project focuses on the implementation and development of handwritten digit recognition algorithm (back-propagation) using
  Artificial Neural Networks. It is a classification problem solved using aforementioned algorithm. A total of 400 input layers are used,
@@ -7,7 +7,7 @@
  layer have been set to 25. The implementation of the same is done on Matlab, using Octave-GUI 4.2.1. ANN model was trained with 5000
  images of various digits. The algorithm predicted English numerical digits with a maximum accuracy of 99.98%.
 
- ##Approach
+ ## Approach
  
  The proposed Neural Network Architecture consists of 3 layers i.e. input layer, hidden layer and the output layer. The input and the
  hidden layer is connected by weights theta1 and the hidden and the output layer is connected by weights theta2. The weighted sum from
@@ -32,20 +32,20 @@
  the weights are as given in Table
 
 
- ##Forward Propagation
+ ## Forward Propagation
  
  Step-1: The inputs given to the input layer is multiplied with the weights connecting the input and the hidden layer and then passed
  through sigmoid function. i.e. - Output one = SIGMOID(XTheta_layer_one) Step-2: The Output_one is then multiplied with the weights
  connecting the hidden and the output layer and then passed through the sigmoid function. i.e.Output_two = SIGMOID
  (Output_oneTheta_layer_two) Hence this way we clearly obtain the final output of our network.
 
- ##Cost Function
+ ## Cost Function
  
  Initial value of the cost function is calculated using the randomly initialized values of weights connecting the input and the hidden
  layer and weights connecting the hidden and the output layer. Error regularization is taken into account while calculating the value of
  cost function and adjustments are made for the same.
 
- ##Back Propagation
+ ## Back Propagation
  
  Back-propagation gives us a way to determine the error in the output of a previous layer given the output of a current layer. The
  process starts at the last layer and calculates the change in the weights for the last layer. Then we can calculate the error in the
