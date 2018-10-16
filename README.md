@@ -8,6 +8,7 @@
  images of various digits. The algorithm predicted English numerical digits with a maximum accuracy of 99.98%.
 
  Approach
+ 
  The proposed Neural Network Architecture consists of 3 layers i.e. input layer, hidden layer and the output layer. The input and the
  hidden layer is connected by weights theta1 and the hidden and the output layer is connected by weights theta2. The weighted sum from
  the hidden as well as the output layer can take any value ranging from 0 to infinity and hence in order to limit the value of the sum
@@ -49,6 +50,7 @@
  output of the previous layer. Using the error in each layer partial derivatives can be calculated for weights connecting the input and
  the hidden layer as well as weights connecting the hidden and the output layer.
 
+ 
  1. The Main file in HandWriting.m
  Run Handwriting.m in either octave/MATLAB to execute the program.
  
@@ -63,3 +65,5 @@
  6. The file 'sigmoidGradient.m' is used to apply sigmoid function.
  
  7. The file 'predictdigit.m' is used to predict the digit. 
+
+
