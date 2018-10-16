@@ -52,7 +52,7 @@
  output of the previous layer. Using the error in each layer partial derivatives can be calculated for weights connecting the input and
  the hidden layer as well as weights connecting the hidden and the output layer.
 
- 
+ ## Steps to Run
  1. The Main file in HandWriting.m
  Run Handwriting.m in either octave/MATLAB to execute the program.
  
